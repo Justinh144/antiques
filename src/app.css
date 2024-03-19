@@ -1,0 +1,109 @@
+.white {
+    color: white;
+}
+
+.grn {
+    background-color: rgb(58, 173, 48);
+}
+
+
+.black {
+    color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.font70 {
+    font-size: 70px;
+}
+
+.font50 {
+    font-size: 50px;
+}
+
+.font40 {
+  font-size: 40px;
+}
+
+.font30 {
+  font-size: 30px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.font10 {
+  font-size: 10px;
+}
+
+.margin30 {
+    margin-top: 30px;
+}
+
+.margin20 {
+    margin-top: 20px;
+}
+
+.margbot20 {
+    margin-bottom: 20px;
+}
+
+.nuni {
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+}
+
+.play {
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: black;
+}
+
+.beau {
+    font-family: "Beau Rivage", cursive;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-style: none;
+    color: white !important;
+  }
+
+.nav-link.active {
+    color: black !important; 
+}
+
+  .nav-link:hover, .nav-link.active .nav-tabs {
+    background-color: #e9ecef; /* Light background on hover */
+    color: #007bff; /* Bootstrap primary color for text */
+    border-radius: .25rem; /* Optional: round corners */
+  }
+
+.nav-tabs {
+    background-color: rgb(58, 173, 48);
+}
+
+.nav {
+    border-style: none;
+}
+
+.txtdecnone {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .font70 {
+      font-size: 2rem; /* Adjust based on your needs */
+    }
+    .font40 {
+      font-size: 1.5rem; /* Adjust based on your needs */
+    }
+    .font30 {
+      font-size: 1.25rem; /* Adjust based on your needs */
+    }
+  }
