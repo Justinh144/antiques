@@ -1,4 +1,4 @@
-import BusiCat from '../../../assets/images/Busicat.webp';
+import BusiCat from '../../../assets/images/BusiCat.webp';
 
 export default function Home() {
     return (
