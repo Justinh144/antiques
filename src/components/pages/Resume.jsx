@@ -1,7 +1,7 @@
 
 export default function Resume() {
 
-const pdfFile = "../../../assets/pdf/ProgrammingResume.pdf";
+const pdfFile = "../../../public/ProgrammingResume.pdf";
 
     return (
         <div className="container d-flex flex-column align-items-center">
