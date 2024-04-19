@@ -87,6 +87,10 @@
     color: black;
 }
 
+.parag {
+  max-width: 90%;
+}
+
 .nav-link {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     border-style: none;
