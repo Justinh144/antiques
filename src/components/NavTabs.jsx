@@ -2,8 +2,8 @@
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-      <ul className="nav nav-tabs justify-content-center">
-        <li className="nav-item" class="font30 play">
+      <ul className="nav nav-tabs justify-content-center header">
+        <li className="nav-item font20 play">
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
@@ -14,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Home
           </a>
         </li>
-        <li className="nav-item" class="font30 play">
+        <li className="nav-item font20 play">
           <a
             href="#resume"
             onClick={() => handlePageChange('Resume')}
@@ -24,7 +24,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li className="nav-item" class="font30 play">
+        <li className="nav-item font20 play">
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
@@ -34,7 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Portfolio
           </a>
           </li>
-          <li className="nav-item" class="font30 play">
+          <li className="nav-item font20 play">
             <a
               href="#contact"
               onClick={() => handlePageChange('Contact')}
