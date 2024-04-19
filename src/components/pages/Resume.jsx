@@ -1,16 +1,16 @@
 
 export default function Resume() {
 
-const pdfFile = "../../../ProgrammingResume.pdf";
+const pdfFile = "../../../JHProgrammingResume.pdf";
 
     return (
         <div className="container d-flex flex-column align-items-center">
-            <h1 class="beau font70 margin30">Resume</h1>
+            <h1 class="beau font70 margin20">Resume</h1>
 
-            <a href={pdfFile} download="ProgrammingResumesume.pdf" 
-            class="margin10 font30 play txtdecnone"
+            <a href={pdfFile} download="JHProgrammingResume.pdf" 
+            class="margin10 font40 play txtdecnone download"
             style={{ marginBottom: '20px', display: 'inline-block' }}>
-             🡲 Download Here 🡰
+             🡲 Download 🡰
             </a>
 
             <iframe src={pdfFile} width="100%" height="1000px">

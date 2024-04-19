@@ -13,6 +13,7 @@ export default function Contact() {
     message: false,
   });
 
+ 
   // Function to update form data
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -34,25 +35,52 @@ export default function Contact() {
   // Function to validate the form data
   const validate = () => {
     const errors = {};
-    if (!formData.name) errors.name = 'Name is required';
+    // if (!formData.name) errors.name = 'Name is required';
 
     if (!formData.email) { 
-      errors.email = 'Email is required';   
+      // errors.email = 'Email is required';   
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.email)) {
       errors.email = 'Invalid Email Entry';
     }
 
-    if (!formData.message) errors.message = 'Message is required';
+    if (!formData.message) errors.message = 'Message sent!';
     return errors;
   };
 
   const errors = validate();
 
-  return (
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await fetch('http://localhost:3001/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const result = await response.json();
+      console.log(result);
+    } catch (error) {
+      console.error('Fetch error:', error);
+    }
+
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
+  };
+
+
+return (
     <div>
-      <h1 class="text-center beau font70 margin30">Contact Page</h1>
+      <h1 class="text-center beau font70 margin20">Contact Page:</h1>
       <div className="container mt-5">
-        <form id="contactForm">
+        <form id="contactForm" onSubmit={handleSubmit}>
           <div className="form-group" class="text-center font30 play">
             <label htmlFor="name">Name:</label>
             <div class="d-flex justify-content-center margin20">
@@ -84,7 +112,7 @@ export default function Contact() {
               required
             />
             </div>
-            {touched.email && errors.email && <div className="text-danger">{errors.email}</div>}
+            {touched.email && errors.email && <div className="text-green">{errors.email}</div>}
           </div>
 
           <div className="form-group" class="text-center margin20 font30 play">
@@ -99,17 +127,17 @@ export default function Contact() {
               onBlur={handleBlur}
               required
             ></textarea></div>
-            {touched.message && errors.message && <div className="text-danger">{errors.message}</div>}
+            {touched.message && errors.message && <div className="text-green">{errors.message}</div>}
           </div>
           <div class="d-flex justify-content-center margin30">
-          <button type="submit" className="btn btn-primary grn">Submit</button>
+          <button type="submit" className="btn grn contactbtn nuni">Submit</button>
           </div>
         </form>
       </div>
     </div>
   );
   }
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
  

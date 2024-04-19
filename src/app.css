@@ -2,8 +2,15 @@
     color: white;
 }
 
-.grn {
-    background-color: rgb(58, 173, 48);
+.grn,
+.grn:active,
+.grn:focus,
+.grn:hover {
+    background-color: rgb(58, 173, 48); 
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 5px white;
+    transition: none !important;
 }
 
 
@@ -11,8 +18,20 @@
     color: black;
 }
 
-.blue{
-    background-color: blue;
+/* blue */
+
+.shrink-test {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.font100 {
+  font-size: 100px;
+}
+
+.font90 {
+  font-size: 90px;
 }
 
 .font70 {
@@ -72,6 +91,8 @@
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     border-style: none;
     color: white !important;
+    box-shadow: rgb(58, 173, 48);
+    background: linear-gradient(to bottom, transparent 100%, rgb(58, 173, 48));
   }
 
 .nav-link.active {
@@ -80,13 +101,16 @@
 
   .nav-link:hover, .nav-link.active .nav-tabs {
     background-color: #e9ecef; /* Light background on hover */
-    color: #007bff; /* Bootstrap primary color for text */
+    color: rgb(58, 173, 48);; /* Bootstrap primary color for text */
     border-radius: .25rem; /* Optional: round corners */
   }
 
 .nav-tabs {
     background-color: rgb(58, 173, 48);
-}
+   display: flex;
+ }
+
+f
 
 .nav {
     border-style: none;
@@ -96,7 +120,80 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+.text-Center {
+  display: flex;
+  flex-direction: column
+}
+
+.text-green {
+  color: rgb(58, 173, 48);
+}
+
+.download {
+  padding: 10px;
+  margin: 0px;
+  border-radius: 10px;
+  background-color:  rgb(58, 173, 48);
+  border: 2px solid black;
+  color: black;
+  font-style:oblique;
+}
+
+.contactbtn {
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer {
+ 
+}
+
+.header {
+  
+}
+
+@media (min-width: 297px) {
+    .nav-tabs {
+      display: flex;
+      justify-content: center;
+    }
+    .nav-item {
+      flex-grow: 1;
+      flex-basis: 0;
+      text-align: center;
+      
+    }
+
+      .font70 {
+        font-size: 2rem; /* Adjust based on your needs */
+      }
+      .font40 {
+        font-size: 1.5rem; /* Adjust based on your needs */
+      }
+      .font30 {
+        font-size: 1.25rem; /* Adjust based on your needs */
+      }
+    }
+  
+
+    @media (max-width: 409px){
+      .nav-tabs,
+      .nav-item {
+        display: flex;
+        justify-content: center;
+      }
+      .nav-item {
+        flex-grow: 1;
+        flex-basis: 0;
+        text-align: center;
+      }
+    
+
     .font70 {
       font-size: 2rem; /* Adjust based on your needs */
     }
@@ -107,3 +204,4 @@
       font-size: 1.25rem; /* Adjust based on your needs */
     }
   }
+
