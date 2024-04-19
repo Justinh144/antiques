@@ -13,9 +13,7 @@ const pdfFile = "../../../JHProgrammingResume.pdf";
              🡲 Download 🡰
             </a>
 
-            <iframe src={pdfFile} width="100%" height="1000px">
-                This browser does not support
-            </iframe>
+          
         </div>
     );
 }
