@@ -1,7 +1,7 @@
 // Define a simple Footer component
 function Footer() {
   return (
-    <footer className="footer bg-dark">
+    <footer className="">
       
     </footer>
   );

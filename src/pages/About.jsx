@@ -3,6 +3,7 @@
 // import DadPic from '../assets/images/DadPic.jpg'
 
 import tonka from '../../assets/images/tonka.jpg';
+import dozer from '../../assets/images/Dozer.jpg'
 import { Link } from 'react-router-dom';
 // import Home from './Home';
 
@@ -20,7 +21,7 @@ export default function Home() {
     }}>
       <img 
       className="hero"
-      src={tonka}
+      src={dozer}
       alt= "Picture of refurbisher"
       style={{
         // maxWidth: '40%',        
@@ -29,7 +30,7 @@ export default function Home() {
        }}/>
       
       <p className="paragraph text-white" >
-      Contrary to popular belief, Lorem Ipsum is not simply random text. 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contrary to popular belief, Lorem Ipsum is not simply random text. 
       It has roots in a piece of classical Latin literature from 45 BC, 
       making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
       looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
