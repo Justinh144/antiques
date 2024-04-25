@@ -1,8 +1,11 @@
+import React, { useState, useEffect } from 'react';
 import {
     ApolloClient,
     InMemoryCache,
     ApolloProvider,
-    createHttpLink
+    createHttpLink,
+    gql,
+    useQuery
   } from '@apollo/client';
   import { Outlet } from 'react-router-dom';
   import { setContext } from '@apollo/client/link/context';
@@ -42,6 +45,20 @@ import {
     });
   
     function App() {
+      const [isInitializing, setIsInitializing] = useState(true);
+    
+      useEffect(() => {
+        // Perform any initialization tasks here (e.g., authentication checks)
+        // Simulate an async initialization phase
+        setTimeout(() => {
+          setIsInitializing(false);
+        }, 1000); // Simulated delay of 1 second
+      }, []);
+    
+      if (isInitializing) {
+        return <div>Loading application...</div>; // Or any other loading indicator
+      }
+    
       return (
         <ApolloProvider client={client}>
           {/* main */}
