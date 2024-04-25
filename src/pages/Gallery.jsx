@@ -21,7 +21,7 @@ import musgo from '../../assets/images/musgo.jpg';
 
 
 import { useEffect, useState } from 'react';
-// Define a simple Header component
+
 function useScrollToTop() {
   useEffect(() => {
     window.scrollTo(0, 0);

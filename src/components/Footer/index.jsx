@@ -1,4 +1,4 @@
-// Define a simple Footer component
+
 function Footer() {
   return (
     <footer className="">
@@ -7,5 +7,5 @@ function Footer() {
   );
 }
 
-// Export the Footer component as the default export
+
 export default Footer;

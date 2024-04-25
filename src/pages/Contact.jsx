@@ -10,23 +10,14 @@ import { Link } from 'react-router-dom';
 export default function Home() {
    return (
     <div className="hero-container" style={{
-      // display: 'flex', 
-      //   flexWrap: 'wrap',
-      //   alignItems: 'center',
-      //   justifyContent: 'center',   
-        // height: '100vw',       
-        // width: '100vw',
-        // margin: 0,
-        // padding: 0         
+             
     }}>
       <img 
       className="hero"
       src={dozer}
       alt= "Picture of refurbisher"
       style={{
-        // maxWidth: '40%',        
-        //   maxHeight: '100%',     
-        //   objectFit: 'contain'
+      
        }}/>
 
 
