@@ -1,7 +1,7 @@
 
 
 
-import penno from '../../assets/images/Penno.jpg'
+import penno from '../../assets/images/penno.jpg'
 import { Link } from 'react-router-dom';
 
 
