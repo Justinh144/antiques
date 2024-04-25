@@ -1,0 +1,477 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* --header-height: 120px;
+  --footer-height: 0px; */
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box; /* Ensures padding and borders are included in width */
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* padding-top: var(--header-height); */
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.main > main {
+  flex: 1;
+  padding: 20px 20px 0px;
+  overflow: hidden;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 1000;
+  background-color: orange;
+  }
+
+.footer {
+  margin-top: 0;
+    width: 100%;
+  
+    text-align: center;
+    margin-top: auto;
+    z-index: 1000;
+    
+    background-color: orange;
+    height: 40px;
+  }
+  
+
+.headText {
+  margin-top: -20px;
+  text-align: center;
+  font-size: 0px;
+}
+
+.headText a {
+  font-size: 40px;
+
+  
+ 
+}
+
+.hero-container {
+  /* controls hero placement */
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  /* margin-top: -370px; */
+  max-width: 40%;       
+  max-height: 100%;    
+  object-fit: contain;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid orange;
+  box-sizing: border-box;
+  border-radius: 20px;
+  
+
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-color: white;
+  border-radius: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.aboutImg {
+  width: 100%;
+  display: block;
+  border: 5px solid orange;
+  margin-top: 29px;
+  border-radius: 20px;
+}
+
+.abtText {
+  max-width: 80%;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.divImg {
+  width: 20.1%; /* Sets each image div to take about 1/9th of the width for 9 items per row */
+  padding: 5px; /* Adds spacing around each image */
+  margin: 0 10px;
+  margin-top: 10px;
+  border: 5px solid orange;
+}
+
+.contContain {
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure content wraps within the container */
+}
+
+.contImg {
+  width: 75%;
+  margin-top: 20px;
+  border: 5px solid orange;
+  border-radius: 20px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.gallImg {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensures the image does not have extra space below (inline-block default behavior) */
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  color: white;
+}
+
+.nav li {
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.heading {
+  /* padding-top: var(--header-height);
+  padding-bottom: var(--header-height); */
+}
+
+header {
+  box-shadow: 0 0 5px 5px white;
+}
+
+
+.header a {
+  color: white;
+  text-decoration: none;
+  
+  
+}
+
+
+
+.space {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.paragraph {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.font80 {
+  font-size: 80px;
+}
+
+.font60 {
+  font-size: 60px;
+}
+
+.font50 {
+  font-size: 50px;
+}
+
+.font30 {
+  font-size: 30px;
+}
+
+.font40 {
+  font-size: 40px;
+}
+
+.marg10 {
+  margin-top: 10px
+}
+
+.marg30 {
+  margin-top: 30px;
+}
+.marg50 {
+  margin-top: 50px;
+}
+
+.margBot50 {
+  margin-top: 210px;
+}
+
+.margBot50 {
+  margin-top: 210px;
+}
+
+.linkMarg {
+  margin-top: 90px;
+}
+
+.jacquard {
+  font-family: "Jacquard 24", system-ui;
+}
+
+.jersey {
+  font-family: "Jersey 15", sans-serif;
+}
+
+.platypi {
+  font-family: "Platypi", serif;
+}
+
+.sedan {
+  font-family: "Sedan", serif;
+}
+
+.roboto {
+  font-family: "Roboto Slab", serif;
+}
+
+.yellow {
+  font-family: "Yellowtail", cursive;
+}
+
+.bangers {
+  font-family: "Bangers", system-ui;
+}
+
+footer {
+
+}
+
+@media (max-width: 935px) and (max-height: 435px) {
+  .hero {
+    max-width: 100%;
+    margin-top: 10px;  /* Smaller margin for smaller screens */
+  }
+
+  .nav, .header, .footer, .main > main {
+    padding: 5px;  /* Reduced padding for smaller height */
+  }
+
+  .font80, .font60, .font50, .font40, .font30 {
+    font-size: reduce by 25%; /* Further reduce font sizes for small height */
+  }
+
+  .space {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gallery .divImg, .contImg {
+    width: 50%;  /* Adjust image container sizes */
+  }
+}
+
+@media (max-width: 435px) {
+  /* Styles for devices with any height but width up to 935px */
+  .hero {
+    max-width: 100%;
+  }
+
+  .nav, .header, .footer, .main > main {
+    padding: 10px;
+  }
+
+  .font80, .font60, .font50, .font40, .font30 {
+    font-size: reduce by 20%; /* Adjust font sizes for narrower screens */
+  }
+
+  .header {
+
+  }
+
+  .headText a {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+
+  .font60 {
+    font-size: 10px;
+  }
+
+  .headText {
+        display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%; 
+  }
+
+  .gallery {
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically if there's extra space */
+    width: 100%;
+}
+
+.divImg {
+  width: 100%; /* Full width to stack them vertically */
+  margin-bottom: 20px; /* Adds some space between the items */
+  display: flex;
+  flex-direction: column;
+  align-items: center;/* Adds some space between the items */
+}
+
+.gallImg {
+    width: 100%; /* Ensures images resize to fit their containers */
+    height: auto; /* Maintains the aspect ratio of the images */
+}
+
+  .links ul {
+    list-style: none; /* Removes the default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks the flex items vertically */
+    align-items: center; /* Center-align items horizontally */
+    width: 100%; /* Ensures the ul spans the full width of its parent */
+}
+
+.links {
+  display: flex;        /* Enables flexbox */
+  flex-direction: column; /* Stacks the flex items vertically */
+  align-items: center;  /* Center-align items horizontally */
+  padding: 0;           /* Removes default padding */
+  margin: 0;            /* Removes default margin */
+  width: 100%;          /* Sets the width of the container to 100% */
+}
+
+.links li {
+    margin: 10px 0; /* Adds vertical spacing between each link */
+}
+
+.links a {
+    text-decoration: none; /* Optionally removes underline from links */
+    list-style: none; /* Removes the default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks the flex items vertically */
+    align-items: center; /* Center-align items horizontally */
+    width: 100%;
+    margin-top: 100px;
+    /* Example link color, change as needed */
+}
+
+
+.links a:hover {
+    text-decoration: underline; /* Adds underline on hover for better visual feedback */
+}
+  .space {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .paragraph {
+    max-width: 80%;
+  }
+}
+
