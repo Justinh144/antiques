@@ -21,7 +21,7 @@ export default function Home() {
     }}>
       <img 
       className="hero"
-      src={dozer}
+      src={tonka}
       alt= "Picture of refurbisher"
       style={{
         // maxWidth: '40%',        

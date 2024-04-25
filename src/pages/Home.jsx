@@ -3,6 +3,7 @@
 // import DadPic from '../assets/images/DadPic.jpg'
 
 import tonka from '../../assets/images/tonka.jpg';
+import penno from '../../assets/images/Penno.jpg'
 import { Link } from 'react-router-dom';
 // import Home from './Home';
 
@@ -13,7 +14,7 @@ export default function Home() {
     }}>
       <img 
       className="hero"
-      src={tonka}
+      src={penno}
       alt= "Picture of refurbisher"
       style={{
       
