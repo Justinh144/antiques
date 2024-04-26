@@ -370,12 +370,28 @@ footer {
 
 @media (max-width: 435px) {
   /* Styles for devices with any height but width up to 935px */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
+  }
+  
+  .content {
+    flex: 1; /* takes up all available space */
+    /* Adjust padding as needed */
+  }
+  
   .hero {
     max-width: 100%;
   }
 
   .nav, .header, .footer, .main > main {
     padding: 10px;
+    height: 10
+  }
+
+  .main2 {
+   height: 100px;
   }
 
   .font80, .font60, .font50, .font40, .font30 {
@@ -437,7 +453,7 @@ footer {
 
 .links {
   display: flex;        /* Enables flexbox */
-  flex-direction: column; /* Stacks the flex items vertically */
+  justify-content: center; /* Stacks the flex items vertically */
   align-items: center;  /* Center-align items horizontally */
   padding: 0;           /* Removes default padding */
   margin: 0;            /* Removes default margin */
@@ -472,6 +488,18 @@ footer {
 
   .paragraph {
     max-width: 80%;
+  }
+
+  .footer {
+    margin-top: 0;
+    width: 100%;
+  
+    text-align: center;
+    margin-top: auto;
+    z-index: 1000;
+    
+    background-color: orange;
+    height: 40px;
   }
 }
 
