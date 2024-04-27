@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Header() {
   return (
     <header className="header">
-      <h1 className="headText roboto font60"><Link to="/">Tim's Antiques</Link></h1>
+      <h1 className="headText roboto font60"><Link to="/">Tim's Antique Trucks</Link></h1>
       <nav>
       </nav>
     </header>

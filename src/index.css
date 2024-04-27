@@ -17,7 +17,7 @@
 }
 
 *, *:before, *:after {
-  box-sizing: border-box; /* Ensures padding and borders are included in width */
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -131,7 +131,7 @@ header {
 
 img {
   max-width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: auto; 
 }
 
 .aboutImg {
@@ -155,8 +155,8 @@ img {
 }
 
 .divImg {
-  width: 20.1%; /* Sets each image div to take about 1/9th of the width for 9 items per row */
-  padding: 5px; /* Adds spacing around each image */
+  width: 20.1%; 
+  padding: 5px; 
   margin: 0 10px;
   margin-top: 10px;
   border: 5px solid orange;
@@ -168,7 +168,7 @@ img {
 
 .container {
   display: flex;
-  flex-wrap: wrap; /* Ensure content wraps within the container */
+  flex-wrap: wrap; 
 }
 
 .contImg {
@@ -185,7 +185,7 @@ img {
 .gallImg {
   width: 100%;
   height: auto;
-  display: block; /* Ensures the image does not have extra space below (inline-block default behavior) */
+  display: block;
 }
 
 .nav {
@@ -242,8 +242,9 @@ body {
 }
 
 .paragraph {
-  max-width: 100%;
+  max-width: 80%;
   margin-top: 20px;
+  font-size: 35px;
 }
 
 h1 {
@@ -347,15 +348,15 @@ footer {
 @media (max-width: 935px) and (max-height: 435px) {
   .hero {
     max-width: 100%;
-    margin-top: 10px;  /* Smaller margin for smaller screens */
+    margin-top: 10px; 
   }
 
   .nav, .header, .footer, .main > main {
-    padding: 5px;  /* Reduced padding for smaller height */
+    padding: 5px;  
   }
 
   .font80, .font60, .font50, .font40, .font30 {
-    font-size: reduce by 25%; /* Further reduce font sizes for small height */
+    font-size: reduce by 25%; 
   }
 
   .space {
@@ -364,21 +365,20 @@ footer {
   }
 
   .gallery .divImg, .contImg {
-    width: 50%;  /* Adjust image container sizes */
+    width: 50%; 
   }
 }
 
 @media (max-width: 435px) {
-  /* Styles for devices with any height but width up to 935px */
+  
   .app-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* full viewport height */
+    min-height: 100vh;
   }
   
   .content {
-    flex: 1; /* takes up all available space */
-    /* Adjust padding as needed */
+    flex: 1; 
   }
   
   .hero {
@@ -391,11 +391,11 @@ footer {
   }
 
   .main2 {
-   height: 100px;
+   margin-top: 50px;
   }
 
   .font80, .font60, .font50, .font40, .font30 {
-    font-size: reduce by 20%; /* Adjust font sizes for narrower screens */
+    font-size: reduce by 20%;
   }
 
   .header {
@@ -423,63 +423,62 @@ footer {
     margin-left: -10px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers children horizontally */
-    justify-content: center; /* Centers children vertically if there's extra space */
+    align-items: center; 
+    justify-content: center; 
     width: 100%;
 }
 
 .divImg {
-  width: 100%; /* Full width to stack them vertically */
-  margin-bottom: 20px; /* Adds some space between the items */
+  width: 100%; 
+  margin-bottom: 20px; 
   display: flex;
   flex-direction: column;
-  align-items: center;/* Adds some space between the items */
+  align-items: center;
 }
 
 .gallImg {
-    width: 100%; /* Ensures images resize to fit their containers */
-    height: auto; /* Maintains the aspect ratio of the images */
+    width: 100%;
+    height: auto; 
 }
 
   .links ul {
-    list-style: none; /* Removes the default list styling */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
-    display: flex; /* Enables flexbox */
-    flex-direction: column; /* Stacks the flex items vertically */
-    align-items: center; /* Center-align items horizontally */
-    width: 100%; /* Ensures the ul spans the full width of its parent */
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%; 
 }
 
 .links {
-  display: flex;        /* Enables flexbox */
-  justify-content: center; /* Stacks the flex items vertically */
-  align-items: center;  /* Center-align items horizontally */
-  padding: 0;           /* Removes default padding */
-  margin: 0;            /* Removes default margin */
-  width: 100%;          /* Sets the width of the container to 100% */
+  display: flex;      
+  justify-content: center; 
+  align-items: center;  
+  padding: 0;           
+  margin: 0;          
+  width: 100%;         
 }
 
 .links li {
-    margin: 10px 0; /* Adds vertical spacing between each link */
+    margin: 10px; 
 }
 
 .links a {
-    text-decoration: none; /* Optionally removes underline from links */
-    list-style: none; /* Removes the default list styling */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
-    display: flex; /* Enables flexbox */
-    flex-direction: column; /* Stacks the flex items vertically */
-    align-items: center; /* Center-align items horizontally */
+    text-decoration: none; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
     width: 100%;
     margin-top: 100px;
-    /* Example link color, change as needed */
 }
 
 
 .links a:hover {
-    text-decoration: underline; /* Adds underline on hover for better visual feedback */
+    text-decoration: underline; 
 }
   .space {
     padding-left: 10px;
