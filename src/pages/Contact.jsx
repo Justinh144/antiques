@@ -20,20 +20,13 @@ export default function Home() {
     
        }}/>
       
-      <p className="paragraph text-white" >
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mail@mail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p className="paragraph text-white" ></p>
             
       <div className="aboutlinks font30 marg10 aboutMarg nav platypi">
-       
-      <li><Link to="/about">About</Link></li>
-      <li className="space"><Link to="/gallery">Gallery</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
+{/*        
+      <li><Link to="/about">About</Link></li> */}
+      <li className="space"><Link to="/home">Mail@mail.com</Link></li>
+      {/* <li><Link to="/contact">Contact</Link></li> */}
        
       </div>
      </div>
