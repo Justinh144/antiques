@@ -1,6 +1,3 @@
-// import { useState } from 'react';
-
-// import DadPic from '../assets/images/DadPic.jpg'
 
 import tonka from '../../assets/images/tonka.jpg';
 import dozer from '../../assets/images/Dozer.jpg'
@@ -14,7 +11,7 @@ export default function Home() {
     }}>
       <img 
       className="hero"
-      src={tonka}
+      src={dozer}
       alt= "Picture of refurbisher"
       style={{
     

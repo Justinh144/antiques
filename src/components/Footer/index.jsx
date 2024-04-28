@@ -1,8 +1,7 @@
 
 function Footer() {
   return (
-    <footer className="footBot">
-      
+    <footer className="footBot text-white">
     </footer>
   );
 }

@@ -311,6 +311,10 @@ button:focus-visible {
   margin-top: 50px;
 }
 
+.marg85 {
+  margin-top: 85px;
+}
+
 .margBot50 {
   margin-top: 210px;
 }
@@ -353,6 +357,7 @@ button:focus-visible {
 
 .footBot {
 margin-bottom: 50px;
+color: white;
 }
 
 @media (max-width: 935px) and (max-height: 435px) {
