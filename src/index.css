@@ -120,7 +120,7 @@ a:hover {
 
 .hero-container {
   /* controls hero placement */
-  margin-top: 20px;
+  margin-top: 120px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -253,7 +253,7 @@ body {
 
 .paragraph {
   max-width: 80%;
-  margin-top: 20px;
+  margin-top: 70px;
   font-size: 35px;
 }
 
