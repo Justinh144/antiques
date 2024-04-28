@@ -60,15 +60,6 @@ a:hover {
   align-items: center;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 40px;
-  z-index: 1000;
-  background-color: orange;
-  }
-
 .footer {
   margin-top: 0;
     width: 100%;
@@ -80,16 +71,48 @@ header {
     background-color: orange;
     height: 40px;
   }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px 5px white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    z-index: 1000;
+    background-color: orange;
+    }
   
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.headCent {
+  display: flex;
+  justify-content: center;
+}
 
 .headText {
+  margin: 0;
+  width: 100%;
   margin-top: -20px;
   text-align: center;
   font-size: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .headText a {
   font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 
   
  
@@ -214,20 +237,6 @@ img {
   /* padding-top: var(--header-height);
   padding-bottom: var(--header-height); */
 }
-
-header {
-  box-shadow: 0 0 5px 5px white;
-}
-
-
-.header a {
-  color: white;
-  text-decoration: none;
-  
-  
-}
-
-
 
 .space {
   padding-left: 150px;
