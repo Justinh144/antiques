@@ -62,7 +62,7 @@ import {
       return (
         <ApolloProvider client={client}>
           {/* main */}
-          <div className="main">
+          <div className="">
             <Header />
             <main className='main2'>
               <Outlet />

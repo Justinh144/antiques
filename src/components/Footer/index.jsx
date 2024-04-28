@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <footer className="">
+    <footer className="footBot">
       
     </footer>
   );

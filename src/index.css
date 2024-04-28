@@ -152,6 +152,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
+  margin-top: 30px;
 }
 
 .divImg {
@@ -341,8 +342,8 @@ button:focus-visible {
   font-family: "Bangers", system-ui;
 }
 
-footer {
-
+.footBot {
+margin-bottom: 50px;
 }
 
 @media (max-width: 935px) and (max-height: 435px) {
@@ -391,7 +392,7 @@ footer {
   }
 
   .main2 {
-   margin-top: 50px;
+   margin-top: 0px;
   }
 
   .font80, .font60, .font50, .font40, .font30 {

@@ -10,22 +10,30 @@ import { Link } from 'react-router-dom';
 export default function Home() {
    return (
     <div className="hero-container" style={{
-             
+           
     }}>
       <img 
       className="hero"
-      src={dozer}
+      src={tonka}
       alt= "Picture of refurbisher"
       style={{
-      
+    
        }}/>
-
-
-
-      <div className="links font30 marg30 nav platypi">
-      <li><Link to="/home">Mail@mail.com</Link></li>
-   
-     
+      
+      <p className="paragraph text-white" >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mail@mail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            
+      <div className="aboutlinks font30 marg10 aboutMarg nav platypi">
+       
+      <li><Link to="/about">About</Link></li>
+      <li className="space"><Link to="/gallery">Gallery</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
        
       </div>
      </div>
