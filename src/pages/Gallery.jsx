@@ -67,56 +67,56 @@ function Gallery() {
       <div className="gallery">
       <div className="divImg" onClick={() => handleImageClick(Cem1)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+         ERTL Semi-Truck LowBoi
        <img className="gallImg" src={Cem1} alt="blewett Inc"/>
       </div>
       </div>
 
       <div className="divImg" onClick={() => handleImageClick(logger)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+         Hubly Log Truck
        <img className="gallImg" src={logger} alt="blewett Inc"/>
       </div>
       </div>
       
        <div className="divImg" onClick={() => handleImageClick(musgo)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+         Vintage Steak Truck
        <img className="gallImg" src={musgo} alt="blewett Inc"/>
       </div>
       </div>
 
       <div className="divImg" onClick={() => handleImageClick(Cem2)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+         Cement Truck
        <img className="gallImg" src={Cem2} alt="blewett Inc"/>
       </div>
       </div>
 
       <div className="divImg" onClick={() => handleImageClick(tonk2)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+         Tonka-Army Tug
        <img className="gallImg" src={tonk2} alt="blewett Inc"/>
       </div>
       </div>
 
       <div className="divImg" onClick={() => handleImageClick(dumpMast)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+        Dump Master
        <img className="gallImg" src={dumpMast} alt="blewett Inc"/>
       </div>
       </div>
 
       <div className="divImg" onClick={() => handleImageClick(camDoz)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+         Army Back Ho
        <img className="gallImg" src={camDoz} alt="blewett Inc"/>
       </div>
       </div>
 
       <div className="divImg" onClick={() => handleImageClick(art)}>
       <div className="textCenter text-white jacquard">
-         Description: Green Truck
+         Buddy L Cannon
        <img className="gallImg" src={art} alt="blewett Inc"/>
       </div>
       </div>
