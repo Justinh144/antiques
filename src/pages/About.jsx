@@ -19,7 +19,7 @@ export default function Home() {
       
       <p className="paragraph text-white" >
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As a history teacher Tim has always had an inherit interest in antiques and items 
-      from the past. His desire to refurbish vintage toy trucks actually began when he learned his brother was doing it.
+      from the past. His desire to refurbish vintage toy trucks actually began when he learned his brother was doing so.
       His natural interest in American history combined with the fact that these trucks reminded him of his childhood was
       all he needed to spark his interest in refurbishing them. Many of these trucks are older than some peoples parents 
       and can date back to as early as the 1920's.
