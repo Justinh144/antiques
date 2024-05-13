@@ -4,6 +4,7 @@
 
 import tonka from '../../assets/images/tonka.jpg';
 import dozer from '../../assets/images/Dozer.jpg'
+import marks from '../../assets/images/marks.jpg'
 import { Link } from 'react-router-dom';
 // import Home from './Home';
 
@@ -14,7 +15,7 @@ export default function Home() {
     }}>
       <img 
       className="hero"
-      src={tonka}
+      src={marks}
       alt= "Picture of refurbisher"
       style={{
     
@@ -25,7 +26,7 @@ export default function Home() {
       <div className="aboutlinks font30 marg10 aboutMarg nav platypi">
 {/*        
       <li><Link to="/about">About</Link></li> */}
-      <li className="space marg85"><Link to="/home">HODGES_TIM@HCDE.ORG</Link></li>
+      <li className="space marg85"><Link to="/home">JustinHodges2023@gmail.com</Link></li>
       {/* <li><Link to="/contact">Contact</Link></li> */}
        
       </div>

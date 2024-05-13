@@ -33,8 +33,7 @@ export default function Home() {
       todays toy vehicles ( some pieces are too large to fit into a conventional microwave).</p>
 
       <p className="paragraph text-white" >
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next is to repair any part of the metal that has been destroyed with filler pieces
-      of scrap metal. After that he decides wether to hand paint or have it powder coated. Both options deliver great looking
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After that he decides wether to hand paint or have it powder coated. Both options deliver great looking
       results but can also differ wildly in the final presentation. While Tim enjoys painting them this can be a very time consuming process 
       so he will sometimes take them to a local powder coating shop in town and pay them to do it. When I visited this shop and they were 
       currently powder coating the frames for some full sized racing buggies. The final part of the process to bring the piece together is 
@@ -43,14 +42,13 @@ export default function Home() {
       </p>
             
       <p className="paragraph text-white" >
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Many of these antiques can sell for a great return on the initial cost and while Tim does sell them
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  While Tim does sell them
       he says that the money is nice but he gets far more enjoyment from taking these trucks that would otherwise
       be lost to time and bringing them into the modern age as works of art. He feels a great sense of pride upon gifting them to his friends 
       and family
-      in the community. On the following tab you will find a gallery of his pieces but his catalogue is much more extensive
+      in the community. On the following tab you will find a gallery of his pieces but his collection is much more extensive
       and always growing. You will also find his contact email if you are interested in aquiring one of these pieces of history.
-      He is always working on new projects and wants to eventually expand his business to other antiques beyond vintage toy trucks,
-      if you have one reach out to him and he might be able to restore it back to life.
+      He is always working on new projects and wants to eventually expand his business to other antiques beyond vintage toy trucks.
       </p> 
 
       <div className="aboutlinks font30 marg10 aboutMarg nav platypi">

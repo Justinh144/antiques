@@ -17,6 +17,10 @@ import tonk from '../../assets/images/tonkaToys.jpg';
 import tonk2 from '../../assets/images/tonkJeep.jpg';
 import art from '../../assets/images/art.jpg';
 import musgo from '../../assets/images/musgo.jpg';
+import mud from '../../assets/images/Mudtruck.jpg';
+import orange from '../../assets/images/OrangeTractor.jpg';
+import red from '../../assets/images/redtruck.jpg';
+import yellow from '../../assets/images/yelltruck.jpg';
 
 
 
@@ -118,6 +122,34 @@ function Gallery() {
       <div className="textCenter text-white jacquard">
          Buddy L Cannon
        <img className="gallImg" src={art} alt="blewett Inc"/>
+      </div>
+      </div>
+
+      <div className="divImg" onClick={() => handleImageClick(art)}>
+      <div className="textCenter text-white jacquard">
+         Tonka Mud Runner
+       <img className="gallImg" src={mud} alt="blewett Inc"/>
+      </div>
+      </div>
+
+      <div className="divImg" onClick={() => handleImageClick(art)}>
+      <div className="textCenter text-white jacquard">
+         Wyandott Earth Mover
+       <img className="gallImg" src={orange} alt="blewett Inc"/>
+      </div>
+      </div>
+
+      <div className="divImg" onClick={() => handleImageClick(art)}>
+      <div className="textCenter text-white jacquard">
+         Louis-Markx Truck
+       <img className="gallImg" src={red} alt="blewett Inc"/>
+      </div>
+      </div>
+
+      <div className="divImg" onClick={() => handleImageClick(art)}>
+      <div className="textCenter text-white jacquard">
+         Vintage Tonka Truck
+       <img className="gallImg" src={yellow} alt="blewett Inc"/>
       </div>
       </div>
 
