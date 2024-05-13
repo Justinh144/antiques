@@ -140,9 +140,8 @@ a:hover {
   border: 5px solid orange;
   box-sizing: border-box;
   border-radius: 20px;
-  
+  }
 
-}
 
 .hero img {
   width: 100%;
@@ -386,6 +385,7 @@ color: white;
 
 @media (max-width: 435px) {
   
+  
   .app-container {
     display: flex;
     flex-direction: column;
@@ -397,6 +397,10 @@ color: white;
   }
   
   .hero {
+    max-width: 100%;
+  }
+
+  .contHero {
     max-width: 100%;
   }
 
@@ -520,5 +524,17 @@ color: white;
     background-color: orange;
     height: 40px;
   }
+
+  .maxWid {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 376px) {
+
+  .hero {
+    max-width: 100%;
+  }
+
 }
 

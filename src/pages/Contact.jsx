@@ -26,7 +26,7 @@ export default function Home() {
       <div className="aboutlinks font30 marg10 aboutMarg nav platypi">
 {/*        
       <li><Link to="/about">About</Link></li> */}
-      <li className="space marg85"><Link to="/home">JustinHodges2023@gmail.com</Link></li>
+      <li className="space marg85"><Link to="/home">JustinHodges2023@gmail</Link></li>
       {/* <li><Link to="/contact">Contact</Link></li> */}
        
       </div>
